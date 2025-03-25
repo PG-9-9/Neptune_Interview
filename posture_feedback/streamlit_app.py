@@ -18,17 +18,19 @@ from modules.utils import (
 st.set_page_config(page_title="Violinist Posture Feedback", layout="centered")
 st.title("Violin Posture Feedback System")
 
-col1, col2 = st.columns([1, 1])
-
+col1, col2, col3 = st.columns([1, 1, 1])
+start_cam = col1.button("Start Camera")
+stop_cam = col2.button("Stop Camera")
 if "save_snapshot" not in st.session_state:
     st.session_state.save_snapshot = False
+if "set_reference" not in st.session_state:
+    st.session_state.set_reference = False
+
+if col3.button("Set Reference", key="set_reference_btn"):
+    st.session_state.set_reference = True
 
 if st.button("Save Pose Snapshot", key="pose_button"):
     st.session_state.save_snapshot = True
-
-
-start_cam = col1.button("Start Camera")
-stop_cam = col2.button("Quit")
 
 FRAME_WINDOW = st.image([])
 
@@ -46,7 +48,7 @@ skip_counter = 0
 skip_interval = 1
 results = None
 
-reference_elbow_angle = 150
+reference_elbow_angle = 150  # default angle
 elbow_angle_threshold = 15
 shoulder_baseline = None
 
@@ -73,14 +75,21 @@ if start_cam and not stop_cam:
             wrist = get_landmark_coordinates(frame, results.pose_landmarks, 16)
 
             elbow_angle = calculate_angle(shoulder, elbow, wrist)
+
+            # Set reference posture dynamically
+            if st.session_state.set_reference:
+                reference_elbow_angle = elbow_angle
+                st.success(f"Reference posture set at {int(reference_elbow_angle)}°")
+                st.session_state.set_reference = False
+
             deviation = abs(elbow_angle - reference_elbow_angle)
             posture_correct = deviation <= elbow_angle_threshold
 
             if posture_correct:
-                posture_status = f"Reference Posture ({int(elbow_angle)} Degrees)"
+                posture_status = f"Reference Posture ({int(elbow_angle)} Deg)"
                 posture_color = (0, 255, 0)
             else:
-                posture_status = f"Deviated Posture ({int(elbow_angle)} Degress)"
+                posture_status = f"Deviated Posture ({int(elbow_angle)} Deg)"
                 posture_color = (0, 0, 255)
 
             cv2.putText(frame, posture_status, (20, 170), cv2.FONT_HERSHEY_SIMPLEX, 0.8, posture_color, 2)
@@ -125,14 +134,6 @@ if start_cam and not stop_cam:
                 hint = "Great posture!"
 
             cv2.putText(frame, f"Hint: {hint}", (20, 330), cv2.FONT_HERSHEY_SIMPLEX, 0.7, (255, 255, 255), 2)
-
-            if "save_snapshot" not in st.session_state:
-                st.session_state.save_snapshot = False
-
-            if st.session_state.save_snapshot:
-                export_pose_to_json(results.pose_landmarks, frame_count)
-                st.success("Snapshot saved!")
-                st.session_state.save_snapshot = False
 
             if st.session_state.save_snapshot:
                 export_pose_to_json(results.pose_landmarks, frame_count)

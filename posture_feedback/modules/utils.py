@@ -47,7 +47,7 @@ def draw_right_arm(image, landmarks, elbow_above_shoulder=False, annotate=False)
 
     # Optional annotation
     if annotate:
-        text = "Arm Raised" if elbow_above_shoulder else "Arm OK"
+        text = "Raised Arm" if elbow_above_shoulder else "Standard Arm"
         color = (0, 0, 255) if elbow_above_shoulder else (0, 255, 0)
         cv2.putText(image, text, (20, 50), cv2.FONT_HERSHEY_SIMPLEX, 1, color, 2)
 
