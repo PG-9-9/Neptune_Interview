@@ -112,3 +112,5 @@ werkzeug
 wrapt
 xgboost
 zipp
+streamlit
+pyinstaller

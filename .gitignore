@@ -1,3 +1,5 @@
 *.pyc
 neptune_ai
-
+posture_feedback/build
+posture_feedback/dist
+posture_feedback/main.spec
