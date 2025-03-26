@@ -17,9 +17,11 @@ class PoseDetector:
         self.mp_drawing_styles = mp.solutions.drawing_styles
 
     def detect_pose(self, image):
+        if image is None:
+            raise ValueError("Input image is None.")
         image_rgb = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
-        results = self.pose.process(image_rgb)
-        return results
+        return self.pose.process(image_rgb)
+
 
     def draw_landmarks(self, image, results):
         if results.pose_landmarks:

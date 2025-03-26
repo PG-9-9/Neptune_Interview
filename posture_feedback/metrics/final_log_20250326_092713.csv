@@ -1,0 +1,124 @@
+frame,elbow_y,shoulder_y,angle,reference_angle,deviation,smoothed_status,fps,hint,phase
+1,577,416,150.97,150,0.97,False,0,Keep bowing arm stable,final
+2,578,420,150.11,150,0.11,False,11,Keep bowing arm stable,final
+3,578,421,150.3,150,0.3,False,38,Keep bowing arm stable,final
+4,578,421,149.89,150,0.11,False,39,Keep bowing arm stable,final
+5,578,421,148.8,150,1.2,False,32,Keep bowing arm stable,final
+6,578,421,148.39,150,1.61,False,29,Keep bowing arm stable,final
+7,578,421,148.08,150,1.92,False,36,Keep bowing arm stable,final
+8,578,421,146.65,150,3.35,False,33,Keep bowing arm stable,final
+9,578,421,146.24,150,3.76,False,30,Keep bowing arm stable,final
+10,579,422,146.07,150,3.93,False,31,Keep bowing arm stable,final
+11,581,423,145.63,150,4.37,False,28,Keep bowing arm stable,final
+12,581,424,145.81,150,4.19,False,36,Keep bowing arm stable,final
+13,580,424,145.76,150,4.24,False,33,Keep bowing arm stable,final
+14,580,424,145.76,150,4.24,False,32,Keep bowing arm stable,final
+15,580,423,145.09,150,4.91,False,33,Keep bowing arm stable,final
+16,579,423,145.35,150,4.65,False,31,Keep bowing arm stable,final
+17,579,423,146.07,150,3.93,False,30,Keep bowing arm stable,final
+18,579,423,145.35,150,4.65,False,29,Keep bowing arm stable,final
+19,578,423,145.63,150,4.37,False,38,Keep bowing arm stable,final
+20,578,423,145.63,150,4.37,False,31,Keep bowing arm stable,final
+21,578,423,145.63,150,4.37,False,34,Keep bowing arm stable,final
+22,577,422,146.43,150,3.57,False,31,Keep bowing arm stable,final
+23,578,422,146.07,150,3.93,False,28,Keep bowing arm stable,final
+24,578,421,146.2,150,3.8,False,37,Keep bowing arm stable,final
+25,577,420,146.03,150,3.97,False,31,Keep bowing arm stable,final
+26,577,419,146.16,150,3.84,False,31,Keep bowing arm stable,final
+27,579,416,142.37,150,7.63,False,32,Keep bowing arm stable,final
+28,582,415,141.67,150,8.33,False,31,Keep bowing arm stable,final
+29,520,394,41.2,150,108.8,False,23,Try extending your bowing arm more,final
+30,529,395,23.69,150,126.31,False,28,Try extending your bowing arm more,final
+31,508,396,10.9,150,139.1,True,32,Try extending your bowing arm more,final
+32,486,393,2.14,150,147.86,True,29,Try extending your bowing arm more,final
+33,466,394,7.35,150,142.65,True,34,Try extending your bowing arm more,final
+34,451,387,12.43,150,137.57,True,31,Try extending your bowing arm more,final
+35,414,378,26.76,150,123.24,True,32,Try extending your bowing arm more,final
+36,388,378,48.12,150,101.88,True,30,Try extending your bowing arm more,final
+37,360,375,72.06,150,77.94,True,24,Try extending your bowing arm more,final
+38,328,376,102.99,150,47.01,True,25,Try extending your bowing arm more,final
+39,304,378,121.32,150,28.68,True,30,Try extending your bowing arm more,final
+40,288,378,132.18,150,17.82,True,31,Try extending your bowing arm more,final
+41,263,378,143.31,150,6.69,True,31,Lower your shoulder slightly,final
+42,247,376,152.22,150,2.22,True,29,Lower your shoulder slightly,final
+43,226,376,157.24,150,7.24,True,34,Lower your shoulder slightly,final
+44,212,375,158.55,150,8.55,True,29,Lower your shoulder slightly,final
+45,206,373,161.57,150,11.57,True,27,Lower your shoulder slightly,final
+46,206,372,164.48,150,14.48,True,33,Lower your shoulder slightly,final
+47,199,371,167.48,150,17.48,True,21,Try extending your bowing arm more,final
+48,195,371,168.97,150,18.97,True,30,Try extending your bowing arm more,final
+49,194,371,168.75,150,18.75,True,31,Try extending your bowing arm more,final
+50,195,370,168.72,150,18.72,True,33,Try extending your bowing arm more,final
+51,192,370,168.35,150,18.35,True,29,Try extending your bowing arm more,final
+52,193,370,167.04,150,17.04,True,32,Try extending your bowing arm more,final
+53,196,370,166.88,150,16.88,True,32,Try extending your bowing arm more,final
+54,201,372,162.91,150,12.91,True,30,Lower your shoulder slightly,final
+55,230,376,154.68,150,4.68,True,29,Lower your shoulder slightly,final
+56,263,378,138.98,150,11.02,True,21,Lower your shoulder slightly,final
+57,271,378,135.14,150,14.86,True,38,Lower your shoulder slightly,final
+58,294,383,118.81,150,31.19,True,33,Try extending your bowing arm more,final
+59,316,388,103.64,150,46.36,True,31,Try extending your bowing arm more,final
+60,346,389,82.63,150,67.37,True,30,Try extending your bowing arm more,final
+61,373,390,62.23,150,87.77,True,31,Try extending your bowing arm more,final
+62,405,388,38.36,150,111.64,True,24,Try extending your bowing arm more,final
+63,431,388,25.85,150,124.15,True,32,Try extending your bowing arm more,final
+64,441,388,19.49,150,130.51,True,27,Try extending your bowing arm more,final
+65,448,390,17.68,150,132.32,True,31,Try extending your bowing arm more,final
+66,445,390,17.75,150,132.25,True,31,Try extending your bowing arm more,final
+67,451,394,15.87,150,134.13,True,31,Try extending your bowing arm more,final
+68,450,395,14.42,150,135.58,True,32,Try extending your bowing arm more,final
+69,449,395,14.14,150,135.86,True,30,Try extending your bowing arm more,final
+70,445,396,15.0,150,135.0,True,31,Try extending your bowing arm more,final
+71,440,396,17.61,150,132.39,True,33,Try extending your bowing arm more,final
+72,438,393,19.33,150,130.67,True,31,Try extending your bowing arm more,final
+73,427,393,22.39,150,127.61,True,32,Try extending your bowing arm more,final
+74,388,391,40.0,150,110.0,True,19,Try extending your bowing arm more,final
+75,379,390,44.74,150,105.26,True,38,Try extending your bowing arm more,final
+76,357,385,56.48,150,93.52,True,33,Try extending your bowing arm more,final
+77,335,383,72.22,150,77.78,True,31,Try extending your bowing arm more,final
+78,314,383,87.91,150,62.09,True,31,Try extending your bowing arm more,final
+79,294,383,106.57,150,43.43,True,32,Try extending your bowing arm more,final
+80,285,380,119.14,150,30.86,True,31,Try extending your bowing arm more,final
+81,267,377,133.68,150,16.32,True,31,Try extending your bowing arm more,final
+82,242,375,144.31,150,5.69,True,31,Lower your shoulder slightly,final
+83,237,375,146.73,150,3.27,True,32,Lower your shoulder slightly,final
+84,226,375,148.58,150,1.42,True,30,Lower your shoulder slightly,final
+85,237,377,150.35,150,0.35,True,23,Lower your shoulder slightly,final
+86,232,376,149.84,150,0.16,True,29,Lower your shoulder slightly,final
+87,234,376,148.85,150,1.15,True,32,Lower your shoulder slightly,final
+88,235,376,150.21,150,0.21,True,30,Lower your shoulder slightly,final
+89,237,376,150.3,150,0.3,True,31,Lower your shoulder slightly,final
+90,230,375,151.39,150,1.39,True,32,Lower your shoulder slightly,final
+91,231,375,151.11,150,1.11,True,31,Lower your shoulder slightly,final
+92,230,375,151.02,150,1.02,True,31,Lower your shoulder slightly,final
+93,232,375,150.64,150,0.64,True,29,Lower your shoulder slightly,final
+94,245,375,147.0,150,3.0,True,21,Lower your shoulder slightly,final
+95,266,376,132.11,150,17.89,True,31,Try extending your bowing arm more,final
+96,279,382,117.02,150,32.98,True,31,Try extending your bowing arm more,final
+97,299,386,99.52,150,50.48,True,30,Try extending your bowing arm more,final
+98,324,392,86.15,150,63.85,True,29,Try extending your bowing arm more,final
+99,340,394,72.0,150,78.0,True,32,Try extending your bowing arm more,final
+100,362,394,57.22,150,92.78,True,30,Try extending your bowing arm more,final
+101,375,395,47.95,150,102.05,True,27,Try extending your bowing arm more,final
+102,384,395,41.93,150,108.07,True,32,Try extending your bowing arm more,final
+103,395,395,37.01,150,112.99,True,22,Try extending your bowing arm more,final
+104,403,395,33.32,150,116.68,True,29,Try extending your bowing arm more,final
+105,407,395,31.77,150,118.23,True,32,Try extending your bowing arm more,final
+106,405,395,31.37,150,118.63,True,32,Try extending your bowing arm more,final
+107,403,395,32.25,150,117.75,True,32,Try extending your bowing arm more,final
+108,400,395,34.0,150,116.0,True,29,Try extending your bowing arm more,final
+109,396,394,35.86,150,114.14,True,34,Try extending your bowing arm more,final
+110,396,394,36.89,150,113.11,True,31,Try extending your bowing arm more,final
+111,390,391,39.64,150,110.36,True,30,Try extending your bowing arm more,final
+112,371,389,50.5,150,99.5,True,20,Try extending your bowing arm more,final
+113,346,388,64.14,150,85.86,True,31,Try extending your bowing arm more,final
+114,326,387,78.74,150,71.26,True,32,Try extending your bowing arm more,final
+115,306,385,90.72,150,59.28,True,30,Try extending your bowing arm more,final
+116,300,382,101.68,150,48.32,True,30,Try extending your bowing arm more,final
+117,290,381,117.21,150,32.79,True,31,Try extending your bowing arm more,final
+118,274,378,130.89,150,19.11,True,31,Try extending your bowing arm more,final
+119,265,377,138.28,150,11.72,True,27,Lower your shoulder slightly,final
+120,268,376,137.79,150,12.21,True,32,Lower your shoulder slightly,final
+121,265,376,138.79,150,11.21,True,21,Lower your shoulder slightly,final
+122,261,375,139.46,150,10.54,True,30,Lower your shoulder slightly,final
+123,261,375,140.2,150,9.8,True,30,Lower your shoulder slightly,final
