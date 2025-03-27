@@ -1,5 +1,5 @@
 
-# Dear Durval Pires
+# Dear Durval Pires ✌️, 
 
 This submission is the result of digging a little deeper into a deceptively simple challenge:
 
@@ -40,13 +40,7 @@ Each stage in the project was built with one question in mind: *Can we make post
 
 ### ✅ 6. Plot-Based Evaluation & Logging
 - All approach phases were logged.
-- Metrics were visualized to compare different model versions:
-  - **FPS over time**
-  - **Deviation trends**
-  - **Smoothed vs raw**
-  - **Hint frequency**
-  - **Accuracy by logic phase**
-
+- Metrics were visualized to compare different model versions in terms of their accuracy by logic phases.
 ---
 
 ## 🖼️ Sample Visualizations
@@ -129,7 +123,8 @@ Then visit `http://localhost:8501` in your browser.
  ┣ 📜plot_metrics.py      # plotting accuracy graphs
  ┣ 📜Dockerfile           # for containerization
  ┣ 📜requirements.txt     # dependencies
- ┗ 📜README.md            # you're here
+ 🖼️📂images               # images used for README
+ 📜README.md              # you're here
 ```
 
 ---
