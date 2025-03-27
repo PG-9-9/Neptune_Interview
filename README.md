@@ -98,7 +98,17 @@ Each stage in this project builds logically on the previous one — both for acc
 
 ![Accuracy Graph](images/image3.png)
 
-This graph shows how each enhancement step affected accuracy relative to the baseline spec. Notice how final/session reach near real-world correctness when all logic is combined.
+# 📊 Metrics in Action
+
+
+- **Baseline:** Appears perfect due to it being the ground truth (cheating by design).
+- **Angle Filtering:** Reduces false negatives.
+- **Smoothing:** Adds robustness and stability.
+- **Shoulder Logic:** Prevents jitter caused by tension or fatigue.
+- **Final/Session:** Integrates all logic + feedback, showing most balanced real-world performance.
+
+**Update the page every 30 seconds in Streamlit to refresh this plot.**
+
 
 ---
 
