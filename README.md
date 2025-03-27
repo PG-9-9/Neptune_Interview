@@ -1,19 +1,12 @@
 
-# 🎻 Violin Posture Feedback System
+# Dear Durval Pires
 
-Real-time feedback for violinists using computer vision. Whether you're bowing like Paganini or flailing like you're conducting a wind symphony, this app’s here to lend a (digital) hand.
-
----
-
-## 📸 What It Does
-
-This project builds a **real-time posture feedback prototype** for violinists by tracking the **right bowing arm** using a webcam and pose estimation. It started with the classic interview prompt:
+This submission is the result of digging a little deeper into a deceptively simple challenge:
 
 > _"Build a real-time posture feedback prototype. Highlight the elbow in red if it's lifted above shoulder level."_
 
-...but, like all interview prompts, I saw it as a springboard. So I expanded it into a full-fledged pose-feedback engine, experimenting with biomechanical logic, smoothing strategies, and ergonomic heuristics. Because good posture isn’t binary — it's context-aware, nuanced, and sometimes just tired.
+I started with this core instruction—but curiosity (after reading few other interview question) led me to build a system that's both faithful to the original task and open to real-world extension. So I expanded it into a full-fledged pose-feedback engine, experimenting with biomechanical logic, smoothing strategies, and ergonomic heuristics. Because good posture isn’t binary — it's context-aware and sometimes just tired .
 
----
 
 ## 🧠 Step-by-Step Enhancements & Logic
 
@@ -155,6 +148,3 @@ Then visit `http://localhost:8501` in your browser.
 
 ---
 
-## ✨ Made by Vishaal  
-🧠 AI + CV + Streamlit + Docker.  
-🎯 Attempting to make bowing less bow-rring.
