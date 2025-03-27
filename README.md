@@ -143,3 +143,15 @@ Then visit `http://localhost:8501` in your browser.
 
 ---
 
+## 🔚 Closing Notes
+- This was genuinely fun to build and tinker with.
+
+- I hope this shows both my engineering rigor and curiosity.
+
+- If you'd like me to extend this into Unity, ONNX deployment, mobile-friendly variants, or even training-based posture classification — I’d be excited to explore that further.
+
+-Thanks for the opportunity 🙏 Looking forward to hearing your thoughts!
+
+— Vishaal ♾️
+
+---
