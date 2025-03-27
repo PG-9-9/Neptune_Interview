@@ -98,9 +98,6 @@ Each stage in this project builds logically on the previous one — both for acc
 
 ![Accuracy Graph](images/image3.png)
 
-# 📊 Metrics in Action
-
-
 - **Baseline:** Appears perfect due to it being the ground truth (cheating by design).
 - **Angle Filtering:** Reduces false negatives.
 - **Smoothing:** Adds robustness and stability.
@@ -112,19 +109,22 @@ Each stage in this project builds logically on the previous one — both for acc
 
 ---
 
-## 🎯 Other Interview Questions (Integrated)
+### 🎯 Other Interview Questions Tackled
 
-| Prompt                                                                 | Status          | Where |
-|------------------------------------------------------------------------|------------------|-------|
-| Extract 3D joint angles and flag deviation                            | ✅ Done via elbow-shoulder-wrist |
-| Classify posture as “good” or “bad”                                   | ✅ Angle + threshold logic |
-| Track shoulder elevation and smooth temporally                        | ✅ `deque` + average tracking |
-| Plot wrist trajectory to detect inconsistent bowing                   | ✅ `wrist_trajectory` buffer |
-| Build MediaPipe mobile-friendly demo                                  | ✅ Optimized, Streamlit UI |
-| Export to ONNX and Unity-ready wrapper                                | ✅ ONNX export available |
-| Animate a stick figure from pose                                      | ❌ Not yet integrated (future idea) |
+Although this project started with a specific prompt, several components I implemented also directly addressed requirements from other interview tasks. Here’s a breakdown 
 
----
+| Implemented Feature / Logic                      | Interview Question Prompt                                                                                      |
+|--------------------------------------------------|---------------------------------------------------------------------------------------------------------------|
+| **Elbow-Shoulder-Wrist Angle Detection**         | A. Using a webcam or video input, extract 3D joint angles for upper body and define a reference violin posture. |
+| **Posture Classification ("Good"/"Bad")**        | C. Implement a pose analysis system to classify posture as "good" or "bad" using MediaPipe or OpenPose.         |
+| **Shoulder Elevation Detection Logic**           | D. Build a BlazePose-based motion tracker that checks shoulder elevation while bowing.                         |
+| **Temporal Smoothing via 5-Frame Deque**         | D. (continued) If possible, implement temporal smoothing to reduce jitter.                                     |
+| **Wrist Trajectory Path Visualization**          | E. Given a video of a violinist, track the right hand & wrist trajectory to detect inconsistent bowing.         |
+| **Visual Hint Feedback Based on Pose**           | C. (continued) Classify real-time posture and provide actionable feedback labels.                              |
+| **Accuracy Analysis Across Approaches**          | H. Given violinist pose keypoints, classify if bow movement is steady or shaky using time-series input.         |
+
+Each enhancement above wasn't just inspired by these questions—I implemented them to explore the real-time interpretability of posture feedback in violin practice. It was fun turning prompts into working modules that could be tested, visualized, and measured.
+
 
 ## 🚀 Try it Yourself (Docker)
 
